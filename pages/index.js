@@ -16,7 +16,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <form name="contact" method="POST" data-netlify="true" className={styles.card}>
-            <input type="hidden" name="form-name" value="contact">
+            <input type="hidden" name="form-name" value="contact" />
             <p>
               <label htmlFor="name">Name</label>
               <input type="text" id="name" name="name" />
