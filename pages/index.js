@@ -28,6 +28,9 @@ export default function Home() {
               <label htmlFor="message">Message</label>
               <textarea id="message" name="message"></textarea>
             </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
           </form>
         </div>
       </main>
